@@ -8,10 +8,44 @@ to create new branch
 
 to switch branch
 - git branch branch_name
+- git switch branch_name
 
 when we switch the branch and do 
 -ls 
 we can see files we made in new/branch/fileORfolder
+
+when we add and commit the file then save to new branch
+- git add file_name
+- git commit -m "message here"
+
+
+to check how many branches are 
+- git branch
+
+in this log we can see 
+(HEAD -> master) lasted add work OR latest commit     //we can see branch wise
+- git log --oneline
+
+
+-------------------------------------------------------------------------------
+Merge
+
+- git merge branch_name
+
+for the merging branch 
+first come to branch want to merge into.
+
+eg.- 
+If I want to merge new_branch into master branch 
+firstly I come into master by using - git checkout master
+then merge new_branch by using - git merge branch_name
+
+
+
+
+
+
+
 
 
 
